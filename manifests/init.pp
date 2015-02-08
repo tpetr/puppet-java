@@ -1,4 +1,4 @@
-# Public: installs java jre-7u51 and JCE unlimited key size policy files
+# Public: installs java jre-8u25 and JCE unlimited key size policy files
 #
 # Examples
 #
