@@ -49,7 +49,7 @@ class java (
     owner   => 'root',
     group   => 'wheel',
     mode    => '0775',
-    require => Package['java']
+    require => [Package['java'], Package['java-jre']]
   }
 
   file { "${sec_dir}/local_policy.jar":
